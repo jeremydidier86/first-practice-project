@@ -1,5 +1,5 @@
 name: output 
-on: issue
+on: issues
 jobs:
   output:
     runs-on: macos-latest
