@@ -1,8 +1,8 @@
 name: output 
 on: issues
 jobs:
-  output:
+  output-info:
     runs-on: macos-latest
     steps:
       - name: print github
-        run: echo "${{toJSON( github )}}"
+        run: echo "${{toJSON(github.event)}}"
